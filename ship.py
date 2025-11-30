@@ -45,3 +45,4 @@ class Ship(Sprite):
     def blitme(self):
         """在屏幕的指定位置绘制飞船"""
         self.screen.blit(self.image, self.rect)  # 将飞船图像绘制到rect对应的位置
+
